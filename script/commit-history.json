@@ -1,16 +1,35 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "f39b46c1aae2734ef0a8167e4b8b9e6816ce4849",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-08-23T04:34:46.000Z",
       "message": "feat: saludar con hola",
-      "url": "https://github.com/nazaclaure/saludador-bot/commit/HEAD"
+      "url": "https://github.com/nazaclaure/saludador-bot/commit/f39b46c1aae2734ef0a8167e4b8b9e6816ce4849"
     },
     "stats": {
       "total": 33,
       "additions": 14,
       "deletions": 19,
+      "date": "2026-08-23"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-08-23T04:54:01.000Z",
+      "message": "feat: saludar por nombre",
+      "url": "https://github.com/nazaclaure/saludador-bot/commit/HEAD"
+    },
+    "stats": {
+      "total": 19,
+      "additions": 13,
+      "deletions": 6,
       "date": "2026-08-23"
     },
     "coverage": 100,
