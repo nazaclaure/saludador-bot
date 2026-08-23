@@ -1,4 +1,4 @@
-function saludar(nombre, hora, genero) {
+function saludar(nombre, hora, genero, edad) {
   let saludo = "Hola";
   if (hora >= 6 && hora < 12) {
     saludo = "Buenos días";
@@ -8,11 +8,15 @@ function saludar(nombre, hora, genero) {
     saludo = "Buenas noches";
   }
   let prefijo = "";
-  if (genero === "M") {
-    prefijo = "Sr. ";
-  } else if (genero === "F") {
-    prefijo = "Sra. ";
-  }
+   if (edad > 30) 
+   {
+    if (genero === "M" ){
+      prefijo = "Sr. ";
+    }
+    else if (genero === "F"){
+      prefijo = "Sra. ";
+    }
+   }
   return saludo + " " + prefijo + nombre;
 }
 
