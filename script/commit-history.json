@@ -76,17 +76,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6ca512c89d44f09771956ba15883c56c1e431597",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-08-23T06:02:15.000Z",
       "message": "feat: saludar por edad",
-      "url": "https://github.com/nazaclaure/saludador-bot/commit/HEAD"
+      "url": "https://github.com/nazaclaure/saludador-bot/commit/6ca512c89d44f09771956ba15883c56c1e431597"
     },
     "stats": {
       "total": 27,
       "additions": 18,
       "deletions": 9,
+      "date": "2026-08-23"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-08-23T06:25:42.000Z",
+      "message": "feat: saludar en espanol",
+      "url": "https://github.com/nazaclaure/saludador-bot/commit/HEAD"
+    },
+    "stats": {
+      "total": 48,
+      "additions": 27,
+      "deletions": 21,
       "date": "2026-08-23"
     },
     "coverage": 100,
