@@ -114,18 +114,37 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "30711acfefcba1bcfda67fcb7af43959e98706dd",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-08-23T07:10:00.000Z",
       "message": "feat: saludar en ingles",
-      "url": "https://github.com/nazaclaure/saludador-bot/commit/HEAD"
+      "url": "https://github.com/nazaclaure/saludador-bot/commit/30711acfefcba1bcfda67fcb7af43959e98706dd"
     },
     "stats": {
       "total": 30,
       "additions": 23,
       "deletions": 7,
       "date": "2026-08-23"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-08-25T13:21:59.000Z",
+      "message": "feat: saludar a visitante si el nombre esta vacio",
+      "url": "https://github.com/nazaclaure/saludador-bot/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 7,
+      "deletions": 4,
+      "date": "2026-08-25"
     },
     "coverage": 100,
     "test_count": 1,

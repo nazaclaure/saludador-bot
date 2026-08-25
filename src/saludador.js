@@ -1,4 +1,6 @@
 function saludar(nombre, hora, genero, edad, idioma = "es") {
+  const esVacio = !nombre || nombre.trim() === "";
+  const nombreFinal = esVacio? (idioma === "en" ? "visitor" : "visitante")  : nombre.trim();
   let saludo = "Hola";
   let prefijo = "";
   if (idioma === "es") {
@@ -9,7 +11,7 @@ function saludar(nombre, hora, genero, edad, idioma = "es") {
     } else {
       saludo = "Buenas noches";
     }
-    if (edad > 30) {
+    if (edad > 30 && !esVacio) {
       if (genero === "M") {
         prefijo = "Sr. ";
       } else if (genero === "F") {
@@ -24,7 +26,7 @@ function saludar(nombre, hora, genero, edad, idioma = "es") {
     } else {
       saludo = "Good evening";
     }
-    if (edad > 30) {
+    if (edad > 30 && !esVacio) {
       if (genero === "M") {
         prefijo = "Mr. ";
       } else if (genero === "F") {
@@ -33,7 +35,8 @@ function saludar(nombre, hora, genero, edad, idioma = "es") {
     }
   }
 
-  return saludo + " " + prefijo + nombre;
+  return saludo + " " + prefijo + nombreFinal;
 }
 
 export default saludar;
+
