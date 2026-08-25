@@ -1,4 +1,7 @@
 function saludar(nombre, hora, genero, edad, idioma = "es") {
+  if (edad < 0 || edad > 100) {
+    return idioma === "en" ? "Invalid age" : "Edad inválida";
+  }
   const esVacio = !nombre || nombre.trim() === "";
   const nombreFinal = esVacio? (idioma === "en" ? "visitor" : "visitante")  : nombre.trim();
   let saludo = "Hola";

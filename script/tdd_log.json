@@ -42,9 +42,15 @@
     "testId": 6
   },
   {
-    "commitId": "HEAD",
+    "commitId": "73fca80a3072d34c2bb3dc55c28926d016fc6f7a",
     "commitName": "feat: saludar a visitante si el nombre esta vacio",
     "commitTimestamp": 1787664121656,
     "testId": 7
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: validar rango de edad de 0 a 100",
+    "commitTimestamp": 1787665284413,
+    "testId": 8
   }
 ]

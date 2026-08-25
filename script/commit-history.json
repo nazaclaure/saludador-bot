@@ -133,17 +133,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "73fca80a3072d34c2bb3dc55c28926d016fc6f7a",
     "author": "nazaclaure",
     "commit": {
       "date": "2026-08-25T13:21:59.000Z",
       "message": "feat: saludar a visitante si el nombre esta vacio",
-      "url": "https://github.com/nazaclaure/saludador-bot/commit/HEAD"
+      "url": "https://github.com/nazaclaure/saludador-bot/commit/73fca80a3072d34c2bb3dc55c28926d016fc6f7a"
     },
     "stats": {
       "total": 11,
       "additions": 7,
       "deletions": 4,
+      "date": "2026-08-25"
+    },
+    "coverage": 100,
+    "test_count": 1,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "nazaclaure",
+    "commit": {
+      "date": "2026-08-25T13:41:23.000Z",
+      "message": "feat: validar rango de edad de 0 a 100",
+      "url": "https://github.com/nazaclaure/saludador-bot/commit/HEAD"
+    },
+    "stats": {
+      "total": 3,
+      "additions": 3,
+      "deletions": 0,
       "date": "2026-08-25"
     },
     "coverage": 100,
